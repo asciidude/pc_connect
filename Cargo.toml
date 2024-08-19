@@ -1,0 +1,13 @@
+[package]
+name = "pc_connect"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+discord-webhook2 = "0.3.1"
+geolocation = "0.2.1"
+local-ip-address = "0.6.1"
+public-ip = "0.2.2"
+tokio = { version = "1", features = ["full"] }
+whoami = "1.5.1"
